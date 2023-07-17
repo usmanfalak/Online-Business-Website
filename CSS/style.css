@@ -1,0 +1,116 @@
+:root {
+  --body-color: #f9edee;
+  --card-background-color: #fea9a2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 150vh;
+  margin: 0;
+}
+
+.navbar__logo {
+  width: 30px;
+}
+
+.navbar__logo {
+  height: 40px;
+}
+
+.color {
+  background-color: var(--body-color);
+}
+
+/* Hero Section */
+
+.serif__font {
+  font-family: serif;
+}
+
+.sans-serif__font {
+  font-family: sans-serif;
+}
+
+/* Button */
+
+.button__element {
+  background-color: #ff4061;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+}
+
+.stock-background__image {
+  background-image: url(/images/stock-images/bg\ img\ back\ in\ stock.webp);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 3rem;
+}
+
+/* css shapes */
+.css__shape {
+  background-color: var(--card-background-color);
+
+  clip-path: polygon(100% 0%, 100% 43%, 51% 78%, 0 43%, 0 0%);
+}
+
+.bg__color {
+  background-color: var(--card-background-color);
+}
+
+.logo__image {
+  width: 100px;
+}
+
+@media screen and (min-width: 320px) {
+  .css__shape {
+    /* background-color: var(--card-background-color); */
+    min-height: 10%;
+    height: 18%;
+
+    /* clip-path: polygon(100% 0%, 100% 43%, 51% 78%, 0 43%, 0 0%); */
+  }
+  .text__adjustment {
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .css__shape {
+    /* background-color: var(--card-background-color); */
+    min-height: 20%;
+    height: 25%;
+
+    /* clip-path: polygon(100% 0%, 100% 43%, 51% 78%, 0 43%, 0 0%); */
+  }
+
+  .text__adjustment {
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .css__shape {
+    /* background-color: var(--card-background-color); */
+    min-height: 20%;
+    height: 30%;
+
+    /* clip-path: polygon(100% 0%, 100% 43%, 51% 78%, 0 43%, 0 0%); */
+  }
+
+  .text__adjustment {
+    padding-bottom: 4rem;
+  }
+}
